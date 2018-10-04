@@ -6,4 +6,9 @@
 
 ## Usage
 
-    python xlinja.py test.xlsx -j '{"name":"fmkz", "lang":"Python"}'
+1. write Jinja blocks in your Excel file.
+
+![excel](images/excel_ss.png)
+
+2. run xlinja
+    python xlinja.py template.xlsx -j '{"name":"fmkz", "lang":"Python"}'
